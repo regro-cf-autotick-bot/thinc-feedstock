@@ -1,4 +1,4 @@
-{% set version = "8.3.13" %}
+{% set version = "10.0.0" %}
 
 package:
   name: thinc
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/explosion/thinc/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c3b9f3bb0302e6c792356af22779f19f34f723e32f47c481963b82f86693554e
+  sha256: 00c295bee88c9a0d997ab50fe0eec5ce5803ad566d819fbab2dad990809470cd
 
 build:
   number: 0
